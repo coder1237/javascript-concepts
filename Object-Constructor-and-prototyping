@@ -1,0 +1,19 @@
+<script language="javascript" type="text/javascript">
+
+function user(name) {
+    this.name = name;
+    this.details = function() {
+      alert('Details about '+this.name);
+    }
+} 
+ 
+user1 = new user("john")
+user1.details() //alerts "Details about john"
+ 
+user2 = new user("marsh")
+user2.details() //alerts "Details about marsh"
+
+user3 = new user("meghan")
+user3.details() //alerts "Details about meghan"
+
+</script>
